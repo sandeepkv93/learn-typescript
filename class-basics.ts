@@ -7,7 +7,7 @@ class Person {
         this.firstName = first;
         this.lastName = last;
     }
-    getFullName() {
+    getFullName() : string {
         return this.firstName +' '+ this.lastName;
     }
 }
