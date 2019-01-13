@@ -18,3 +18,4 @@ Typescript code is transpiled into javascript code which the browser understands
 1. [Classes, Constructor, Methods](./class-basics.ts)
 1. [Interfaces, Duck typing](./interface-basics.ts)
 1. [Member Visibility](./member-visibility.ts)
+1. [Read-Only Modifier](./readonly-modifier.ts)
