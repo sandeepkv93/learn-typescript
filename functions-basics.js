@@ -15,14 +15,18 @@ var foo3 = function (a, b) {
 };
 console.log(foo3(100, 200));
 console.log('\n****foo4****');
-var foo4 = function (a, b, c = 0, d = 0) {
+var foo4 = function (a, b, c, d) {
+    if (c === void 0) { c = 0; }
+    if (d === void 0) { d = 0; }
     return a + b + c + d;
 };
 console.log(foo4(10, 20));
 console.log(foo4(10, 20, 30));
 console.log(foo4(10, 20, 30, 40));
 console.log('\n****foo5****');
-var foo5 = function (a, b, c = 0, d = 0, e) {
+var foo5 = function (a, b, c, d, e) {
+    if (c === void 0) { c = 0; }
+    if (d === void 0) { d = 0; }
     if (e != null) {
         return a + b + c + d + e;
     }

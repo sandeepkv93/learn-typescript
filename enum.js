@@ -8,7 +8,7 @@ var DaysOfTheWeek;
     DaysOfTheWeek[DaysOfTheWeek["FRI"] = 5] = "FRI";
     DaysOfTheWeek[DaysOfTheWeek["SAT"] = 6] = "SAT";
 })(DaysOfTheWeek || (DaysOfTheWeek = {}));
-let day;
+var day;
 day = DaysOfTheWeek.MON;
 if (day === DaysOfTheWeek.MON) {
     console.log('Got go to work!');

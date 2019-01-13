@@ -8,7 +8,7 @@ function greet() {
 }
 var greeting = greet();
 // greeting = 10; Doesn't work
-// But if you separate decalaration and assignment in a separate line, implicit typing would be 'any'
+// But if you separate decalaration and initalization in a separate line, implicit typing would be 'any'
 var newGreeting;
-newGreeting = greet(); // Typeof newGreeting is any
-newGreeting = 10; // Works now!
+newGreeting = greet();
+console.log(typeof newGreeting); // Gives any

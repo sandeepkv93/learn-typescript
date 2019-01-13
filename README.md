@@ -23,4 +23,3 @@ Typescript code is transpiled into javascript code which the browser understands
 1. [Generics](./generics.ts)
 1. [Modules](./modules.ts)
 1. [Typescript Compliler options](./typescript-compiler.ts)
-1. [TSCONFIG](./tsconfig.json)
