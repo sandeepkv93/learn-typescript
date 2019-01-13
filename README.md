@@ -15,3 +15,6 @@ Typescript code is transpiled into javascript code which the browser understands
 1. [Functions](./functions-basics.ts)
 1. [Implicit Types](./implicit-types.ts)
 1. [Any and Union Types](./any-and-union.ts)
+1. [Classes, Constructor, Methods](./class-basics.ts)
+1. [Interfaces, Duck typing](./interface-basics.ts)
+1. [Member Visibility](./member-visibility.ts)
