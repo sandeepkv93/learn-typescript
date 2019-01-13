@@ -1,18 +1,16 @@
-var Person = /** @class */ (function () {
-    function Person(name) {
+class Person {
+    constructor(name) {
         this.name = name;
     }
-    return Person;
-}());
-var aPerson = new Person('Sandeep');
+}
+let aPerson = new Person('Sandeep');
 console.log(aPerson);
-var Shape = /** @class */ (function () {
-    function Shape() {
+class Shape {
+    constructor() {
         this.type = 'Circle';
     }
-    return Shape;
-}());
-var aShape = new Shape();
+}
+let aShape = new Shape();
 console.log(aShape);
 /*
 readonly works in 2 cases

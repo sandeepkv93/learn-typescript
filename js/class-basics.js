@@ -1,14 +1,13 @@
-var Person = /** @class */ (function () {
+class Person {
     // Multiple Constructors are not allowed
     // Method overloading is also not allowed
-    function Person(first, last) {
+    constructor(first, last) {
         this.firstName = first;
         this.lastName = last;
     }
-    Person.prototype.getFullName = function () {
+    getFullName() {
         return this.firstName + ' ' + this.lastName;
-    };
-    return Person;
-}());
+    }
+}
 var aPerson = new Person('Sandeep', 'Vishnu');
 console.log(aPerson.getFullName());
