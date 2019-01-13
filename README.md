@@ -21,3 +21,4 @@ Typescript code is transpiled into javascript code which the browser understands
 1. [Read-Only Modifier](./readonly-modifier.ts)
 1. [ENUMs](./enum.ts)
 1. [Generics](./generics.ts)
+1. [Modules](./modules.ts)
