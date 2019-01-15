@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sandeepkv93/being-developer.git"
+    "url": "git+https://github.com/sandeepkv93/learn-typescript.git"
   },
   "keywords": [
     "typescript",
@@ -21,7 +21,7 @@
   "author": "sandeepkv",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sandeepkv93/being-developer/issues"
+    "url": "https://github.com/sandeepkv93/learn-typescript/issues"
   },
-  "homepage": "https://github.com/sandeepkv93/being-developer#readme"
+  "homepage": "https://github.com/sandeepkv93/learn-typescript#readme"
 }

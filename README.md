@@ -24,3 +24,5 @@ Typescript code is transpiled into javascript code which the browser understands
 1. [Modules](./modules.ts)
 1. [Typescript Compliler options](./typescript-compiler.ts)
 1. [tsconfig.json](./tsconfig.md)
+1. [Simple Node app using Typescript](https://github.com/sandeepkv93/simple-typescript-node-app)
+1. [Commandline Node App using Typescript](https://github.com/sandeepkv93/typescript-node-app-github-api-experiment)
